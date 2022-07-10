@@ -5,9 +5,8 @@ const ApiTemplate = (props) => {
     const [flipped,setFlipped] = useState(false);
     function handleClick(e) {
         e.preventDefault();
-        console.log("true");
-        {flipped ? setFlipped(false) :
-        setFlipped(true) }
+        console.log(setFlipped);
+        flipped ? setFlipped(false):setFlipped(true)
     }
 
 
